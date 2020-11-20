@@ -76,6 +76,18 @@ nav {
 .sidebar {
   display: none;
 }
+.sidebar li:nth-child(1) {
+  background-color: #e0e7e9;
+  padding: 15px;
+}
+
+.sidebar li:nth-child(n + 2) {
+  border-bottom: 1px solid rgba(30, 122, 151, 78%);
+}
+
+.form-control {
+  border: 2px solid #1d809f;
+}
 
 @media (min-width: 768px) {
   .sidebar {
@@ -85,11 +97,10 @@ nav {
     left: 0;
     z-index: 1000;
     display: block;
-    padding: 10px 35px 0;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: #f5f5f5;
-    border-right: 1px solid #eee;
+    background-color: #f2f6f8;
+    border-right: 4px solid #1d809f;
   }
 }
 
@@ -138,7 +149,7 @@ ul {
 ul {
   display: block;
   list-style-type: disc;
-  margin-block-start: 1em;
+  /* margin-block-start: 1em; */
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
