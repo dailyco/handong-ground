@@ -14,16 +14,23 @@ body {
 .btn-xl {
   padding: 1.5rem 2.8rem;
 }
-.content-section {
+.service-section {
+  height: 100vh;
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.content-section-heading h2 {
-  font-size: 3rem;
+.service-heading h2 {
+  font-size: 5rem;
 }
-.content-section-heading h3 {
-  font-size: 1rem;
+.service-heading h3 {
+  font-size: 2.5rem;
   text-transform: uppercase;
+}
+.rounded-circle {
+  border-radius: 50% !important;
 }
 h1,
 h2,
@@ -92,12 +99,7 @@ h6 {
   margin: 0;
   padding: 0;
 }
-/* .mb-1,
-.my-1 {
-  margin-bottom: 0.25rem !important;
-} */
-.mb-5,
-.my-5 {
+.mb-5 {
   margin-bottom: 4rem !important;
 }
 @media (min-width: 992px) {
@@ -191,9 +193,13 @@ h6 {
 .service-icon {
   background-color: #fff;
   color: #1d809f;
-  height: 7rem;
-  width: 7rem;
-  display: block;
+  border: none;
+  height: 11rem;
+  width: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
