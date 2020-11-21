@@ -85,6 +85,13 @@ nav {
   border-bottom: 1px solid rgba(30, 122, 151, 78%);
 }
 
+.nav > li > a:focus,
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: #1d809f;
+  color: #fff;
+}
+
 .form-control {
   border: 2px solid #1d809f;
 }
@@ -99,7 +106,6 @@ nav {
     display: block;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: #f2f6f8;
     border-right: 4px solid #1d809f;
   }
 }
