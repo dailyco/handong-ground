@@ -132,3 +132,14 @@ ul {
   margin: 0;
   margin-bottom: 20px;
 }
+
+/* MAP */
+#map {
+  font: 15px arial;
+  font-weight: bolder;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 50px;
+}
