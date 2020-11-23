@@ -36,7 +36,24 @@ readFile("./../data/campus_map.json", function (data) {
     };
   var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 
+  var sidebar = document.getElementById("sidebar");
   for (var i = 0; i < map_info.length; i++) {
+    // 캠퍼스 맵 리스트 생성
+    var list = document.createElement("li");
+    var link = document.createElement("a");
+    link.href = "#";
+    link.textContent = map_info[i]["이름"];
+    if (i == 0) {
+      var semantic_text = document.createElement("span");
+      semantic_text.classList.add("sr-only");
+      semantic_text.textContent = "(current)";
+
+      list.classList.add("active");
+      link.append(semantic_text);
+    }
+    list.append(link);
+    sidebar.appendChild(list);
+
     // 마커를 생성합니다
     var marker = new kakao.maps.Marker({
       map: map, // 마커를 표시할 지도
@@ -47,8 +64,12 @@ readFile("./../data/campus_map.json", function (data) {
     });
 
     // 마커에 표시할 인포윈도우를 생성합니다
+    var label = document.createElement("div");
+    label.classList.add("map-info");
+    label.textContent = map_info[i]["이름"];
+
     var infowindow = new kakao.maps.InfoWindow({
-      content: '<div class="map_info">' + map_info[i]["이름"] + "<div>", // 인포윈도우에 표시할 내용
+      content: label, // 인포윈도우에 표시할 내용
     });
 
     // 마커에 mouseover 이벤트와 mouseout 이벤트를 등록합니다
