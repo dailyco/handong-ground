@@ -145,7 +145,7 @@ ul {
   line-height: 50px;
 }
 
-.map_info {
+#map .map-info {
   font: 15px arial;
   font-weight: bolder;
   text-align: center;
