@@ -144,3 +144,13 @@ ul {
   border-radius: 10px;
   line-height: 50px;
 }
+
+.map_info {
+  font: 15px arial;
+  font-weight: bolder;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 50px;
+}
