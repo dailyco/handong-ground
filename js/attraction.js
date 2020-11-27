@@ -13,7 +13,7 @@ function readFile(file, callback) {
 
 readFile("./../data/attraction_info.json", function (data) {
   var attraction_info = JSON.parse(data);
-  var attraction_info = attraction_info["장소"];
+  var attraction_info = attraction_info["장소"]["KR"];
 
   var sidebar = document.getElementById("sidebar");
   for (var i = 0; i < attraction_info.length; i++) {

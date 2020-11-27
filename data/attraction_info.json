@@ -1,35 +1,69 @@
 {
-    "장소": [
-        {
-            "이름": "천마지",
-            "위치": "비전관과 벧엘관 뒤편에 천마지 입구로 통하는 길이 있으며 학교에서 양덕동까지 이어져 있습니다.",
-            "설명": "한동대학교 뒤편에 있는 산책로로 천마저수지가 있고 양덕동 까지 이어져 있습니다.\n나무가 많고 자연이 잘 보존된 곳으로 한동대학생들 뿐 아니라 동네 주민들도 자주 사용하는 산책 코스로 알려져 있습니다."
-        }, 
-        {
-            "이름": "한동캐년",
-            "위치": "천마지 안에 위치해 있다.",
-            "설명": ""
-        },
-        {
-            "이름": "올네이션스 앞,뒤 평상",
-            "위치": "올네이션스 앞, 오석 뒤쪽에 인공 조형물 앞에 있는 평상 / 올네이션스와 느헤미야홀 사이에 위치한 평상",
-            "설명": "날씨가 좋은날 조용히 앉아 쉴 수 있는 평상입니다."
-        },
-        {
-            "이름": "평봉 구석 벤치",
-            "위치": "평봉필드에서 현동홀 쪽에 위치한 벤치들 / 채플 쪽 농구코트 옆쪽에 위치한 벤치",
-            "설명": "평봉 필드에서 운동을 하거나 산책을 하다가 쉴 수 있는 벤치\n노을을 보기 좋고 여름에도 나무가 있어서 잠시 쉬기 편한 벤치들입니다."
-        },
-        {
-            "이름": "로맨틱 잔디",
-            "위치": "학관에서 오석관이나 느헤미야홀로 가는 길 중간에 있는 공간",
-            "설명": "천연 잔디로 만들어진 공간으로 한동대학교 대표 피크닉 장소 및 사진 찍기 좋은 장소입니다."
-        },
-        {
-            "이름": "감자밭",
-            "위치": "오석 흡연장 기준 왼쪽으로 입구가 있으며 길을 따라 들어가면 탁 트인 공간이 보인다.", 
-            "설명": "천마지와 비슷하게 산책을 할 수 있는 공간이며 탁 트인 공간에 밭과 함께 경치를 즐길 수 있는 곳입니다."
-        }
-    ]
+   "장소": {
+       "KR": [
+            {
+               "이름":"천마지",
+               "위치":"비전관과 벧엘관 뒤편에 천마지 입구로 통하는 길이 있으며 학교에서 양덕동까지 이어져 있습니다.",
+               "설명":"한동대학교 뒤편에 있는 산책로로 천마저수지가 있고 양덕동 까지 이어져 있습니다.\n나무가 많고 자연이 잘 보존된 곳으로 한동대학생들 뿐 아니라 동네 주민들도 자주 사용하는 산책 코스로 알려져 있습니다."
+            }, 
+            {
+               "이름":"한동캐년",
+               "위치":"천마지 안에 위치해 있다.",
+               "설명":""
+            },
+            {
+               "이름":"올네이션스 앞,뒤 평상",
+               "위치":"올네이션스 앞, 오석 뒤쪽에 인공 조형물 앞에 있는 평상 / 올네이션스와 느헤미야홀 사이에 위치한 평상",
+               "설명":"날씨가 좋은날 조용히 앉아 쉴 수 있는 평상입니다."
+            },
+            {
+               "이름":"평봉 구석 벤치",
+               "위치":"평봉필드에서 현동홀 쪽에 위치한 벤치들 / 채플 쪽 농구코트 옆쪽에 위치한 벤치",
+               "설명":"평봉 필드에서 운동을 하거나 산책을 하다가 쉴 수 있는 벤치\n노을을 보기 좋고 여름에도 나무가 있어서 잠시 쉬기 편한 벤치들입니다."
+            },
+            {
+               "이름":"로맨틱 잔디",
+               "위치":"학관에서 오석관이나 느헤미야홀로 가는 길 중간에 있는 공간",
+               "설명":"천연 잔디로 만들어진 공간으로 한동대학교 대표 피크닉 장소 및 사진 찍기 좋은 장소입니다."
+            },
+            {
+               "이름":"감자밭",
+               "위치":"오석 흡연장 기준 왼쪽으로 입구가 있으며 길을 따라 들어가면 탁 트인 공간이 보인다.", 
+               "설명":"천마지와 비슷하게 산책을 할 수 있는 공간이며 탁 트인 공간에 밭과 함께 경치를 즐길 수 있는 곳입니다."
+            }
+        ],
+       "EN": [
+            {
+               "Name":"Chunmaji",
+               "Location":"Located the road behind the Vision Hall and Bethel hall leading to the entrance of Chunmaji(Lake).",
+               "Description":"The road leads to the Yangdok-dong.\nIt is a well-known walking course among the Handong students."
+            }, 
+            {
+                "Name":"Handong Canyon",
+                "Location":"It is located in Cheonmaji",
+                "Description":""
+            },
+            {
+                "Name":"Front and Back of Nations Hall",
+                "Location":"",
+                "Description":"A place to sit and rest quietly alone or with friends."
+            },
+            {
+                "Name":"Pyeongbong Benches",
+                "Location":"The benches are located around the Pyeongbong Field.",
+                "Description":"Pyeongbong field has a tracking field course to exercise or walk and benches to sit and rest."
+            },
+            {
+                "Name":"Romantic Field",
+                "Location":"Located in the middle of the road from Student Union Hall to OhSeok Hall or Nehemiah Hall.",
+                "Description":"A field filled with small grass where Handong students do picnics and spend time with friends."
+            },
+            {
+                "Name":"Potato Field",
+                "Location":"Located to the left side of the OhSeok Hall smoking area, open entrance.",
+                "Description":"A place you can take a walk and enjoy the beautiful scenery."
+            }
+        ]
+    }
 } 
     
