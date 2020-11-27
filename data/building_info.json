@@ -93,7 +93,7 @@
                "설명":"각종 필기구 및 서적 등을 판매하는 교내 유일한 문구사입니다."
             }
         ],
-       "EN":  [
+       "EN": [
             {
                "Name":"Student Union Hall (1st Floor)",
                "Location":"Located on the left side of Happiness Dorm Hall.",
@@ -317,7 +317,7 @@
             {
                 "Name":"Hyundong Hall (HDH)",
                 "Location":"Located in the center of the university, between the Pyeongbong Field and Nehemiah Hall",
-                "Description":"The Department of Counseling Psychology and Social Welfare, the Department of International Language and Literature, and the Department of GLS are located.\nOn the first floor of the Hyeondong Hall, there is an office in charge of various administration of the school,""the Office of Reserve Forces,""the Office of the President and the Prayer Room are located.",
+                "Description":"The Department of Counseling Psychology and Social Welfare, the Department of International Language and Literature, and the Department of GLS are located.\nOn the first floor of the Hyeondong Hall, there is an office in charge of various administration of the school, the Office of Reserve Forces, the Office of the President and the Prayer Room are located."
             },
             {
                 "Name":"Department of Language Education (DLE)",
