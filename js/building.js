@@ -13,8 +13,8 @@ function readFile(file, callback) {
 
 readFile("./../data/building_info.json", function (data) {
   var building_infos = JSON.parse(data);
-  var building_info = building_infos["건물"];
-  var facility_info = building_infos["시설"];
+  var building_info = building_infos["건물"]["KR"];
+  var facility_info = building_infos["시설"]["KR"];
 
   var sidebar = document.getElementById("sidebar");
   for (var i = 0; i < building_info.length; i++) {

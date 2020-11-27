@@ -27,7 +27,7 @@ function makeOutListener(infowindow) {
 
 readFile("./../data/campus_map.json", function (data) {
   var map_info = JSON.parse(data);
-  map_info = map_info["캠퍼스 맵"];
+  map_info = map_info["캠퍼스 맵"]["KR"];
 
   var mapContainer = document.getElementById("map"), // 지도를 표시할 div
     mapOption = {
