@@ -43,37 +43,37 @@
                "Name":"Chunmaji",
                "Location":"Located the road behind the Vision Hall and Bethel hall leading to the entrance of Chunmaji(Lake).",
                "Description":"The road leads to the Yangdok-dong.\nIt is a well-known walking course among the Handong students.",
-               "link":"chunmaji"
+               "Link":"chunmaji"
             }, 
             {
                 "Name":"Handong Canyon",
                 "Location":"It is located in Cheonmaji",
                 "Description":"",
-                "link":"h-canyon"
+                "Link":"h-canyon"
             },
             {
                 "Name":"Front and Back of Nations Hall",
                 "Location":"",
                 "Description":"A place to sit and rest quietly alone or with friends.",
-                "link":"front-back-nations"
+                "Link":"front-back-nations"
             },
             {
                 "Name":"Pyeongbong Benches",
                 "Location":"The benches are located around the Pyeongbong Field.",
                 "Description":"Pyeongbong field has a tracking field course to exercise or walk and benches to sit and rest.",
-                "link":"pyeongbong-benches"
+                "Link":"pyeongbong-benches"
             },
             {
                 "Name":"Romantic Field",
                 "Location":"Located in the middle of the road from Student Union Hall to OhSeok Hall or Nehemiah Hall.",
                 "Description":"A field filled with small grass where Handong students do picnics and spend time with friends.",
-                "link":"romantic-field"
+                "Link":"romantic-field"
             },
             {
                 "Name":"Potato Field",
                 "Location":"Located to the left side of the OhSeok Hall smoking area, open entrance.",
                 "Description":"A place you can take a walk and enjoy the beautiful scenery.",
-                "link":"potato-field"
+                "Link":"potato-field"
             }
         ]
     }
