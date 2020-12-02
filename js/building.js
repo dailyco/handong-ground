@@ -186,9 +186,11 @@ readFile("./../data/building_info.json", function (data) {
       var inst_fac_desc = document.createElement("ul");
 
       inst_fac.textContent = "부대시설";
+      inst_fac_desc.classList.add("chip-bar");
       pair7.classList.add("pair");
       for (var j = 0; j < inst_fac_arr.length; j++) {
         var inst_fac_list = document.createElement("li");
+        inst_fac_list.classList.add("chip");
         inst_fac_list.textContent = inst_fac_arr[j];
         inst_fac_desc.append(inst_fac_list);
       }
