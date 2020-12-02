@@ -55,8 +55,10 @@ readFile("./../data/building_info.json", function (data) {
     var placeholders = document.createElement("div");
     var placeholder = document.createElement("div");
     var photo = document.createElement("img");
+    var pair1 = document.createElement("div");
     var location = document.createElement("h4");
     var desc_loc = document.createElement("p");
+    var pair2 = document.createElement("div");
     var description = document.createElement("h4");
     var desc_desc = document.createElement("p");
     item_main.classList.add("item-main");
@@ -69,45 +71,57 @@ readFile("./../data/building_info.json", function (data) {
     placeholder.classList.add("col-sm-6");
     placeholder.classList.add("placeholder");
     photo.classList.add("img-responsive");
+    photo.classList.add("photo");
+    pair1.classList.add("pair");
+    pair2.classList.add("pair");
     desc_loc.classList.add("text-muted");
     desc_desc.classList.add("text-muted");
     header.textContent = building_info[i]["이름"];
     photo.alt = building_info[i]["링크"];
     photo.src = building_info[i]["사진"];
-    photo.width = 200;
     // photo.dataholderrendered = true;
     location.textContent = "위치";
     desc_loc.textContent = building_info[i][location.textContent];
     description.textContent = "설명";
     desc_desc.textContent = building_info[i][description.textContent];
+    pair1.append(description);
+    pair1.append(desc_desc);
+    pair2.append(location);
+    pair2.append(desc_loc);
     placeholder.append(photo);
-    placeholder.append(description);
-    placeholder.append(desc_desc);
-    placeholder.append(location);
-    placeholder.append(desc_loc);
     if (building_info[i]["부대시설"]) {
+      var pair3 = document.createElement("div");
       var inst_fac = document.createElement("h4");
       var inst_fac_arr = building_info[i]["부대시설"];
       var inst_fac_desc = document.createElement("ul");
 
       inst_fac.textContent = "부대시설";
+      inst_fac_desc.classList.add("chip-bar");
+      pair3.classList.add("pair");
       for (var j = 0; j < inst_fac_arr.length; j++) {
         var inst_fac_list = document.createElement("li");
+        inst_fac_list.classList.add("chip");
         inst_fac_list.textContent = inst_fac_arr[j];
         inst_fac_desc.append(inst_fac_list);
       }
-      placeholder.append(inst_fac);
-      placeholder.append(inst_fac_desc);
+      pair3.append(inst_fac);
+      pair3.append(inst_fac_desc);
+      placeholder.append(pair3);
     }
-
+    placeholder.append(pair1);
+    placeholder.append(pair2);
     if (building_info[i]["대여방법"]) {
+      var pair4 = document.createElement("div");
       var rent = (document = document.createElement("h4"));
       var rent_desc = document.createElement("p");
 
       rent.textContent = "대여방법";
+      pair4.classList.add("pair");
+      rent_desc.classList.add("text-muted");
       rent_desc.textContent = building_info[i][rent.textContent];
-      placeholder.append(rent);
-      placeholder.append(rent_desc);
+      pair4.append(rent);
+      pair4.append(rent_desc);
+      placeholder.append(pair4);
     }
     placeholders.append(placeholder);
     item_main.append(header);
@@ -131,8 +145,10 @@ readFile("./../data/building_info.json", function (data) {
     var placeholders = document.createElement("div");
     var placeholder = document.createElement("div");
     var photo = document.createElement("img");
+    var pair5 = document.createElement("div");
     var location = document.createElement("h4");
     var desc_loc = document.createElement("p");
+    var pair6 = document.createElement("div");
     var description = document.createElement("h4");
     var desc_desc = document.createElement("p");
     item_main.classList.add("item-main");
@@ -145,45 +161,55 @@ readFile("./../data/building_info.json", function (data) {
     placeholder.classList.add("col-sm-6");
     placeholder.classList.add("placeholder");
     photo.classList.add("img-responsive");
+    photo.classList.add("photo");
+    pair5.classList.add("pair");
+    pair6.classList.add("pair");
     desc_loc.classList.add("text-muted");
     desc_desc.classList.add("text-muted");
     header.textContent = facility_info[i]["이름"];
     photo.alt = facility_info[i]["링크"];
     photo.src = facility_info[i]["사진"];
-    photo.width = 200;
     // photo.dataholderrendered = true;
     location.textContent = "위치";
     desc_loc.textContent = facility_info[i][location.textContent];
     description.textContent = "설명";
     desc_desc.textContent = facility_info[i][description.textContent];
+    pair5.append(description);
+    pair5.append(desc_desc);
+    pair6.append(location);
+    pair6.append(desc_loc);
     placeholder.append(photo);
-    placeholder.append(description);
-    placeholder.append(desc_desc);
-    placeholder.append(location);
-    placeholder.append(desc_loc);
-    if (building_info[i]["부대시설"]) {
+    if (facility_info[i]["부대시설"]) {
+      var pair7 = document.createElement("div");
       var inst_fac = document.createElement("h4");
-      var inst_fac_arr = building_info[i]["부대시설"];
+      var inst_fac_arr = facility_info[i]["부대시설"];
       var inst_fac_desc = document.createElement("ul");
 
       inst_fac.textContent = "부대시설";
+      pair7.classList.add("pair");
       for (var j = 0; j < inst_fac_arr.length; j++) {
         var inst_fac_list = document.createElement("li");
         inst_fac_list.textContent = inst_fac_arr[j];
         inst_fac_desc.append(inst_fac_list);
       }
-      placeholder.append(inst_fac);
-      placeholder.append(inst_fac_desc);
+      pair7.append(inst_fac);
+      pair7.append(inst_fac_desc);
+      placeholder.append(pair7);
     }
-
-    if (building_info[i]["대여방법"]) {
+    placeholder.append(pair5);
+    placeholder.append(pair6);
+    if (facility_info[i]["대여방법"]) {
+      var pair8 = document.createElement("div");
       var rent = (document = document.createElement("h4"));
       var rent_desc = document.createElement("p");
 
       rent.textContent = "대여방법";
-      rent_desc.textContent = building_info[i][rent.textContent];
-      placeholder.append(rent);
-      placeholder.append(rent_desc);
+      pair8.classList.add("pair");
+      rent_desc.classList.add("text-muted");
+      rent_desc.textContent = facility_info[i][rent.textContent];
+      pair8.append(rent);
+      pair8.append(rent_desc);
+      placeholder.append(pair8);
     }
     placeholders.append(placeholder);
     item_main.append(header);
