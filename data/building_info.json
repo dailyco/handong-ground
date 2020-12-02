@@ -148,7 +148,7 @@
             },
             {
                "Name":"Ebenzer",
-               "Institutional Facilities":"Coding Space",
+               "Institutional Facilities": ["Coding Space"],
                "Location":"Located next to the Handong’s Industrial Academic Cooperation Office, behind Vision Hall.",
                "Description":"A place to where students can use for individual study and team projects. There is also an office for ICT faculty members.",
                "Link":"ebenzer"

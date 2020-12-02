@@ -137,6 +137,13 @@ ul {
   margin: 20px 0;
   /* margin-bottom: 20px; */
 }
+.photo {
+  width: 300px;
+  margin-bottom: 40px;
+}
+.pair {
+  margin-bottom: 40px;
+}
 
 /* MAP */
 #map {
