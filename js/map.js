@@ -1,3 +1,16 @@
+function onClick(e) {
+  var item = document.querySelector(".active");
+  if (item) {
+    item.classList.remove("active");
+    item.style.display = "none";
+  }
+
+  // var id = e.target.href.split("#")[1];
+  // var target = document.getElementById(id);
+  // target.classList.add("active");
+  // target.style.display = "block";
+}
+
 // JSON 파일을 읽어오는 함수
 function readFile(file, callback) {
   var rawFile = new XMLHttpRequest();
@@ -41,16 +54,17 @@ readFile("./../data/campus_map.json", function (data) {
     // 캠퍼스 맵 리스트 생성
     var list = document.createElement("li");
     var link = document.createElement("a");
-    link.href = "#";
+    link.onclick = onClick;
+    link.href = "#" + map_info[i]["링크"];
     link.textContent = map_info[i]["이름"];
-    if (i == 0) {
-      var semantic_text = document.createElement("span");
-      semantic_text.classList.add("sr-only");
-      semantic_text.textContent = "(current)";
+    // if (i == 0) {
+    //   var semantic_text = document.createElement("span");
+    //   semantic_text.classList.add("sr-only");
+    //   semantic_text.textContent = "(current)";
 
-      list.classList.add("active");
-      link.append(semantic_text);
-    }
+    //   list.classList.add("active");
+    //   link.append(semantic_text);
+    // }
     list.append(link);
     sidebar.appendChild(list);
 

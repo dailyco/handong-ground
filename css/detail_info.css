@@ -34,6 +34,12 @@ nav {
 .navbar-inverse {
   background-color: #1d809f;
 }
+.navbar {
+  position: relative;
+  min-height: 30px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
 .navbar-fixed-top {
   position: fixed;
   z-index: 1030;
@@ -42,12 +48,6 @@ nav {
   right: 0;
   /* border: 0; */
   /* border-width: 0 0 1px; */
-}
-.navbar {
-  position: relative;
-  /* min-height: 30px; */
-  /* margin-bottom: 20px; */
-  border: 1px solid transparent;
 }
 
 @media (min-width: 768px) {
@@ -118,19 +118,20 @@ ul {
 }
 
 /* MAIN */
-.main {
+#main {
+  margin-top: 50px;
   padding: 20px;
 }
 @media (min-width: 768px) {
-  .main {
+  #main {
     padding-right: 40px;
     padding-left: 40px;
   }
 }
 
 .page-header {
-  margin: 0;
-  margin-bottom: 20px;
+  margin: 20px 0;
+  /* margin-bottom: 20px; */
 }
 
 /* MAP */
