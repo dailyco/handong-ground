@@ -116,114 +116,114 @@
                "Location":"Located on the left side of Happiness Dorm Hall.",
                "Institutional Facilities": ["Apple in the Tree Cafe","Mom’s Kitchen","Club Concert Hall"],
                "Description":"A place that provides beverages and bakery services.\nAlso known as the cafeteria.\nA place where you can watch performances from various clubs.",
-               "link":"student-hall-1f"
+               "Link":"student-hall-1f"
             },
             {
                "Name":"Student Union Hall (2nd Floor)",
                "Location":"Located on the leftside of Happiness Dorm Hall.",
                "Institutional Facilities": ["Clubrooms","ISU Office","Image Solution","Question Mark Café","Giving Tree","Mari's Hair Salon"],
                "Description":"A place(CCR=culture creative room) where club activities are gathered.\nThere is an ISU office and Student Government Office.\nA place to print and make copies.\nA café style space where students can use freely.\nA charity shop.\nThe only hair salon in HGU campus",
-               "link":"student-hall-2f"
+               "Link":"student-hall-2f"
             },
             {
                "Name":"Hiddink Dream Field",
                "Location":"Located front of OhSeok building.",
                "Description":"A place to play sports such as soccer and futsal.",
                "How to Rent":"Apply from the reservation list on the HISNet website.",
-               "link":"hiddink-field"
+               "Link":"hiddink-field"
             },
             {
                "Name":"Basketball Court",
                "Location":"Located in three places (front of the Student Union Hall, front of Chapel, and next to the Hiddink Dream Field).",
                "Description":"There are four courts in total, three of them can be used by Handong students.",
                "How to Rent":"Apply from the reservation list on the HISNet website.",
-               "link":"basketball-court"
+               "Link":"basketball-court"
             },
             {          
                "Name":"Tennis Court",
                "Location":"Located behind the bus stop.",
                "Description":"There is only one tennis court and can be used by Handong students.",
                "How to Rent":"Apply from the reservation list on the HISNet website.",
-               "link":"tennis-court"
+               "Link":"tennis-court"
             },
             {
                "Name":"Ebenzer",
                "Institutional Facilities":"Coding Space",
                "Location":"Located next to the Handong’s Industrial Academic Cooperation Office, behind Vision Hall.",
                "Description":"A place to where students can use for individual study and team projects. There is also an office for ICT faculty members.",
-               "link":"ebenzer"
+               "Link":"ebenzer"
             },
             {
                "Name":"GS25",
                "Location":"Located across the left from the main entrance of Happiness Hall and also it is connected through the first floor of Happiness Hall.",
                "Description":"It is the only GS25 convenience store on campus.",
-               "link":"gs25"
+               "Link":"gs25"
             },
             {
                "Name":"CU",
                "Location":"Located across from HISBEANS Coffee on the 3rd floor of OhSeok Hall",
                "Description":"It is the only CU convenience store on campus.",
-               "link":"cu"
+               "Link":"cu"
             },
             {
                "Name":"HGU Mejum(Store)",
                "Location":"Located next to Bethel Hall.",
                "Description":"The only HGU store where you can buy goods at lower prices than any convienience stores.",
-               "link":"h-mejum"
+               "Link":"h-mejum"
             }, 
             {
                "Name":"EDIYA Coffee",
                "Location":"Located across the Happiness Hall.",
                "Description":"A coffee shop serving coffee, beverages, and bakery services.",
-               "link":"ediya"
+               "Link":"ediya"
             },
             {
                "Name":"HISBEANS",
                "Location":"Located across from the CU convenience store on the 3rd floor of OhSeok Hall.",
                "Description":"A coffee shop serving coffee, beverages, and bakery services.",
-               "link":"hisbeans"
+               "Link":"hisbeans"
             },
             {
                "Name":"INBREEZE",
                "Location":"Located front of the Happiness Hall, above the Alpha Store.",
                "Description":"A place that serves meals and coffees.",
-               "link":"inbreeze"
+               "Link":"inbreeze"
             },
             {
                "Name":"Red Racoon",
                "Location":"Located next to InBreeze, above the GS25 convinience store.",
                "Description":"A place that sells a variety of foods such as cup rice, sandwiches, and etc",
-               "link":"red-racoons"
+               "Link":"red-racoons"
             },
             {
                "Name":"Buger King",
                "Location":"Located next to Red Racoon, above the GS25 convinience store.",
                "Description":"The only fast food restaurant on campus.",
-               "link":"burger-king"
+               "Link":"burger-king"
             },
             {
                "Name":"Laundry Center",
                "Location":"Located next to the Handong’s Industrial Academic Cooperation Office.",
                "Description":"The only laundry center on campus that provides services such as mending clothes, washing clothes, washing blankets, and blankets storage.",
-               "link":"laundry-center"
+               "Link":"laundry-center"
             },
             {
                "Name":"HGU Post Office",
                "Location":"Located on the basement floor behind of Hyundong Hall, separate staircase outside.",
                "Description":"The only post office on campus that provides postal services.",
-               "link":"h-post-office"
+               "Link":"h-post-office"
             },
             {
                "Name":"Alpha Store",
                "Location":"Located to the right of GS25 convinience store.",
                "Description":"The only stationery store on campus that sells various writing instruments and books.",
-               "link":"alpha"
+               "Link":"alpha"
             },
             {
                "Name":"Ping Pong",
                "Location":"Located below the basement of Rodem Hall.",
                "Description":"There are four ping pong tables.\nThe place is used freely among the Handong students.",
-               "link":"ping-pong"
+               "Link":"ping-pong"
             }
       ]
     },
@@ -344,113 +344,113 @@
                 "Location":"Located behind the Nehemiah Building.",
                 "Institutional Facilities": ["International School Playground", "Basketball Court"],
                 "Description":"Handong affiliated international schools, elementary school, junior high, high school students this course is",
-                "link":"h-international-school"
+                "Link":"h-international-school"
             },
             {
                 "Name":"OhSeok Hall (OH)",
                 "Location":"Located behind the Romantic field, next to the Newton Hall.",
                 "Institutional Facilities": ["Library","Computer Lab","Discussion Cafe","Lab Meeting Room","CU","GEA Classroom","Prayer Room"],
                 "Description":"This building have a library, places to study, lecture rooms, convenience store and prayer rooms.",
-                "link":"ohseok-hall"
+                "Link":"ohseok-hall"
             },
             {
                 "Name":"Newton Hall (NTH)",
                 "Location":"Located between the OhSeok Hall and Nehemiah Hall.",
                 "Description":"This building is mainly used by majors such as Mechanical Engineering, Computer Science and Electronic Engineering, and Spatial and Environmental Systems Engineering.",
-                "link":"newton-hall"
+                "Link":"newton-hall"
             },
             {
                 "Name":"All Nations Hall (ANH)",
                 "Location":"Located behind the Cornerstone Hall, connected by the Newton Hall",
                 "Description":"The library of Handong University International Law School is located on the first floor, Lecture rooms and professors’ offices are located on second floor and is used mostly by HILS students, The auditorium is located on the second and third floor, The office of International Affairs (OIA) is located on the fourth floor.",
-                "link":"allnations-hall"
+                "Link":"allnations-hall"
             },
             {
                 "Name":"Nehemiah Hall (NMH)",
                 "Location":"Located to the right of Newton Hall, left side of Hyundong Hall",
                 "Description":"This building is mainly used by the department of Management, department of Content Convergence Design, department of Life Science, and department of Communications.",
-                "link":"nehemiah-hall"
+                "Link":"nehemiah-hall"
             },
             {
                 "Name":"Hyundong Hall (HDH)",
                 "Location":"Located in the center of the university, between the Pyeongbong Field and Nehemiah Hall",
                 "Description":"The Department of Counseling Psychology and Social Welfare, the Department of International Language and Literature, and the Department of GLS are located.\nOn the first floor of the Hyeondong Hall, there is an office in charge of various administration of the school, the Office of Reserve Forces, the Office of the President and the Prayer Room are located.",
-                "link":"hyundong-hall"
+                "Link":"hyundong-hall"
             },
             {
                 "Name":"Department of Language Education (DLE)",
                 "Location":"Located across from the main entrance of Hyundong Hall, left side of Hyoam Chapel",
                 "Description":"This building is mainly in charge of compulsory English courses and offices of professors.",
-                "link":"dle"
+                "Link":"dle"
             },
             {
                 "Name":"Corner Stone Hall (Public Official)",
                 "Location":"Located behind the OhSeok Hall, front of All Nations Hall.",
                 "Institutional Facilities": ["Cornerstone Hall 1st floor cafe"],
                 "Description":"This building is used by the department of Spatial and Environmental System Engineering and there are private study rooms and practice rooms for the Handong students.",
-                "link":"cornerstone-hall"
+                "Link":"cornerstone-hall"
             },
             {
                 "Name":"UN Ban Ki-moon Center",
                 "Location":"Located after going up through the road leading to the back of All Nations Hall",
                 "Institutional Facilities": ["Creation Library","Grace Table"],
                 "Description":"This building has a new second library and a room that Handong students can freely use, and there also a restaurant named Grace Table which serves meals and beverages.",
-                "link":"un-bankimoon-center"
+                "Link":"un-bankimoon-center"
             },
             {
                 "Name":"Vision Hall",
                 "Location":"Located between the Handong’s Industrial Academic Cooperation Office and Creation Hall",
                 "Description":"It is one of Handong University's dormitories.",
-                "link":"vision-hall"
+                "Link":"vision-hall"
             },
             {
                 "Name":"Creation Hall",
                 "Location":"Located front of Vision Hall, between the Vision Hall and Bethel Hall.",
                 "Description":"It is one of Handong University's dormitories.",
-                "link":"creation-hall"
+                "Link":"creation-hall"
             },
             {
                 "Name":"Bethel Hall",
                 "Location":"Located in front of the Creation Hall.",
                 "Institutional Facilities": ["HGU Mejum (Store)"],
                 "Description":"It is one of Handong University's dormitories and next to the HGU mejum (store).",
-                "link":"bethel-hall"
+                "Link":"bethel-hall"
             },
             {
                 "Name":"Rodem Hall",
                 "Location":"It is located in front of the Bethel Hall.",
                 "Description":"It is one of Handong University's dormitories.",
-                "link":"rodem-hall"
+                "Link":"rodem-hall"
             }, 
             { 
                 "Name":"International Hall",
                 "Location":"Located between Rodem Hall and Grace Hall",
                 "Description":"It is one of Handong University’s dormitories.",
-                "link":"international-hall"
+                "Link":"international-hall"
             },
             {
                 "Name":"Grace Hall",
                 "Location":"Located in front of International Hall",
                 "Description":"It is one of Handong University's dormitories.",
-                "link":"grace-hall"
+                "Link":"grace-hall"
             },
             {
                 "Name":"Happniess Hall",
                 "Location":"It is located in front of Grace Hall",
                 "Description":"It is one of Handong University’s dormitories.",
-                "link":"happiness-hall"
+                "Link":"happiness-hall"
             },
             {
                 "Name":"Second Happiness Hall (Papryus Hall)",
                 "Location":"Located next to the UN Ban Ki-moon Center",
                 "Description":"This is the most recently built dormitory.",
-                "link":"happiness-hall-2d"
+                "Link":"happiness-hall-2d"
             },
             {
                 "Name":"Hyoam Chapel",
                 "Location":"Located next to the DLE building",
                 "Description":"This building is where chapel and sunday services are held.",
-                "link":"hyoam-chapel"
+                "Link":"hyoam-chapel"
             }
         ]
     }
