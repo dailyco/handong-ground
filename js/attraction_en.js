@@ -66,8 +66,9 @@ readFile("./../data/attraction_info.json", function (data) {
     header.classList.add("page-header");
     placeholders.classList.add("row");
     placeholders.classList.add("placeholders");
-    placeholder.classList.add("col-xs-6");
-    placeholder.classList.add("col-sm-6");
+    placeholder.classList.add("col-xs-12");
+    placeholder.classList.add("col-sm-9");
+    placeholder.classList.add("col-md-7");
     placeholder.classList.add("placeholder");
     photo.classList.add("img-responsive");
     photo.classList.add("photo");
