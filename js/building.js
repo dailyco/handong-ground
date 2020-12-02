@@ -89,8 +89,6 @@ readFile("./../data/building_info.json", function (data) {
     pair2.append(location);
     pair2.append(desc_loc);
     placeholder.append(photo);
-    placeholder.append(pair1);
-    placeholder.append(pair2);
     if (building_info[i]["부대시설"]) {
       var pair3 = document.createElement("div");
       var inst_fac = document.createElement("h4");
@@ -98,9 +96,11 @@ readFile("./../data/building_info.json", function (data) {
       var inst_fac_desc = document.createElement("ul");
 
       inst_fac.textContent = "부대시설";
+      inst_fac_desc.classList.add("chip-bar");
       pair3.classList.add("pair");
       for (var j = 0; j < inst_fac_arr.length; j++) {
         var inst_fac_list = document.createElement("li");
+        inst_fac_list.classList.add("chip");
         inst_fac_list.textContent = inst_fac_arr[j];
         inst_fac_desc.append(inst_fac_list);
       }
@@ -108,7 +108,8 @@ readFile("./../data/building_info.json", function (data) {
       pair3.append(inst_fac_desc);
       placeholder.append(pair3);
     }
-
+    placeholder.append(pair1);
+    placeholder.append(pair2);
     if (building_info[i]["대여방법"]) {
       var pair4 = document.createElement("div");
       var rent = (document = document.createElement("h4"));
@@ -178,8 +179,6 @@ readFile("./../data/building_info.json", function (data) {
     pair6.append(location);
     pair6.append(desc_loc);
     placeholder.append(photo);
-    placeholder.append(pair5);
-    placeholder.append(pair6);
     if (facility_info[i]["부대시설"]) {
       var pair7 = document.createElement("div");
       var inst_fac = document.createElement("h4");
@@ -197,7 +196,8 @@ readFile("./../data/building_info.json", function (data) {
       pair7.append(inst_fac_desc);
       placeholder.append(pair7);
     }
-
+    placeholder.append(pair5);
+    placeholder.append(pair6);
     if (facility_info[i]["대여방법"]) {
       var pair8 = document.createElement("div");
       var rent = (document = document.createElement("h4"));
