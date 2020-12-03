@@ -167,22 +167,26 @@ ul {
 
 /* MAP */
 #map {
-  font: 15px arial;
-  font-weight: bolder;
-  text-align: center;
-  width: 80%;
-  height: 500px;
-  padding: 50px;
+  height: 100vh;
+  padding-top: 50px;
+  padding: 0;
+}
+
+#map .outer-item {
   border-radius: 10px;
-  line-height: 50px;
+}
+
+#map .item-info {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  /* font-size: 14px; */
 }
 
 #map .map-info {
-  font: 15px arial;
-  font-weight: bolder;
   text-align: center;
-  width: 150px;
-  height: 50px;
-  border-radius: 10px;
-  line-height: 50px;
+  width: 100px;
 }
