@@ -13,24 +13,12 @@ var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니
 function onClick(e) {
   var m = markers["active"];
   if (m) m.marker.setMap(null);
-  // var item = document.querySelector(".active");
-  // if (item) {
-  //   item.classList.remove("active");
-  //   item.style.display = "none";
-  // }
 
   var id = e.target.href.split("#")[1];
   markers[id].marker.setMap(map);
   markers["active"] = markers[id];
   map.setCenter(markers[id].position);
   map.setLevel(2);
-  // var target = document.getElementById(id);
-  // target.classList.add("active");
-  // target.style.display = "block";
-
-  // 마커가 지도 위에 표시되도록 설정합니다
-  // marker.setMap(map);
-  // marker.setMap(null);
 }
 
 // JSON 파일을 읽어오는 함수
@@ -72,14 +60,6 @@ readFile("./../data/campus_map.json", function (data) {
     link.onclick = onClick;
     link.href = "#" + map_info[i]["Link"];
     link.textContent = map_info[i]["Name"];
-    // if (i == 0) {
-    //   var semantic_text = document.createElement("span");
-    //   semantic_text.classList.add("sr-only");
-    //   semantic_text.textContent = "(current)";
-
-    //   list.classList.add("active");
-    //   link.append(semantic_text);
-    // }
     list.append(link);
     sidebar.appendChild(list);
 
@@ -117,7 +97,6 @@ readFile("./../data/campus_map.json", function (data) {
       makeOutListener(infowindow)
     );
 
-    // const marker_item =
     markers[map_info[i]["Link"]] = {
       marker: marker,
       position: position,

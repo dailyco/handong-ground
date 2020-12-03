@@ -38,14 +38,6 @@ readFile("./../data/building_info.json", function (data) {
     link.onclick = onClick;
     link.href = "#" + building_info[i]["Link"];
     link.textContent = building_info[i]["Name"];
-    // if (i == 0) {
-    //   var semantic_text = document.createElement("span");
-    //   semantic_text.classList.add("sr-only");
-    //   semantic_text.textContent = "(current)";
-
-    //   list.classList.add("active");
-    //   link.append(semantic_text);
-    // }
     list.append(link);
     sidebar.appendChild(list);
 
@@ -80,8 +72,6 @@ readFile("./../data/building_info.json", function (data) {
     header.textContent = building_info[i]["Name"];
     photo.alt = building_info[i]["Link"];
     photo.src = building_info[i]["Photo"];
-    photo.width = 200;
-    // photo.dataholderrendered = true;
     location.textContent = "Location";
     desc_loc.textContent = building_info[i][location.textContent];
     description.textContent = "Description";
@@ -172,7 +162,6 @@ readFile("./../data/building_info.json", function (data) {
     header.textContent = facility_info[i]["Name"];
     photo.alt = facility_info[i]["Link"];
     photo.src = facility_info[i]["Photo"];
-    // photo.dataholderrendered = true;
     location.textContent = "Location";
     desc_loc.textContent = facility_info[i][location.textContent];
     description.textContent = "Description";
