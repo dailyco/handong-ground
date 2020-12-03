@@ -37,14 +37,6 @@ readFile("./../data/attraction_info.json", function (data) {
     link.onclick = onClick;
     link.href = "#" + attraction_info[i]["링크"];
     link.textContent = attraction_info[i]["이름"];
-    // if (i == 0) {
-    // var semantic_text = document.createElement("span");
-    // semantic_text.classList.add("sr-only");
-    // semantic_text.textContent = "(current)";
-
-    // list.classList.add("active");
-    // link.append(semantic_text);
-    // }
     list.append(link);
     sidebar.appendChild(list);
 
@@ -79,7 +71,6 @@ readFile("./../data/attraction_info.json", function (data) {
     header.textContent = attraction_info[i]["이름"];
     photo.alt = attraction_info[i]["링크"];
     photo.src = attraction_info[i]["사진"];
-    // photo.dataholderrendered = true;
     location.textContent = "위치";
     desc_loc.textContent = attraction_info[i][location.textContent];
     description.textContent = "설명";

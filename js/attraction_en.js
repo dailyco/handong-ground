@@ -37,14 +37,6 @@ readFile("./../data/attraction_info.json", function (data) {
     link.onclick = onClick;
     link.href = "#" + attraction_info[i]["Link"];
     link.textContent = attraction_info[i]["Name"];
-    // if (i == 0) {
-    // var semantic_text = document.createElement("span");
-    // semantic_text.classList.add("sr-only");
-    // semantic_text.textContent = "(current)";
-
-    // list.classList.add("active");
-    // link.append(semantic_text);
-    // }
     list.append(link);
     sidebar.appendChild(list);
 
@@ -79,7 +71,6 @@ readFile("./../data/attraction_info.json", function (data) {
     header.textContent = attraction_info[i]["Name"];
     photo.alt = attraction_info[i]["Link"];
     photo.src = attraction_info[i]["Photo"];
-    // photo.dataholderrendered = true;
     location.textContent = "Location";
     desc_loc.textContent = attraction_info[i][location.textContent];
     description.textContent = "Description";
