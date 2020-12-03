@@ -1,14 +1,36 @@
-function onClick(e) {
-  var item = document.querySelector(".active");
-  if (item) {
-    item.classList.remove("active");
-    item.style.display = "none";
-  }
+var markers = {};
+var mapContainer = document.getElementById("map"); // 지도를 표시할 div
+var mapOption = {
+  center: new kakao.maps.LatLng(36.103091, 129.388415), // 지도의 중심좌표
+  level: 3, // 지도의 확대 레벨
+};
+var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+// 마우스 드래그와 모바일 터치를 이용한 지도 이동을 막는다
+// map.setDraggable(false);
+// 마우스 휠과 모바일 터치를 이용한 지도 확대, 축소를 막는다
+// map.setZoomable(false);
 
-  // var id = e.target.href.split("#")[1];
+function onClick(e) {
+  var m = markers["active"];
+  if (m) m.marker.setMap(null);
+  // var item = document.querySelector(".active");
+  // if (item) {
+  //   item.classList.remove("active");
+  //   item.style.display = "none";
+  // }
+
+  var id = e.target.href.split("#")[1];
+  markers[id].marker.setMap(map);
+  markers["active"] = markers[id];
+  map.setCenter(markers[id].position);
+  map.setLevel(2);
   // var target = document.getElementById(id);
   // target.classList.add("active");
   // target.style.display = "block";
+
+  // 마커가 지도 위에 표시되도록 설정합니다
+  // marker.setMap(map);
+  // marker.setMap(null);
 }
 
 // JSON 파일을 읽어오는 함수
@@ -42,13 +64,6 @@ readFile("./../data/campus_map.json", function (data) {
   var map_info = JSON.parse(data);
   map_info = map_info["캠퍼스 맵"]["EN"];
 
-  var mapContainer = document.getElementById("map"), // 지도를 표시할 div
-    mapOption = {
-      center: new kakao.maps.LatLng(36.10311570534553, 129.38840428465357), // 지도의 중심좌표
-      level: 3, // 지도의 확대 레벨
-    };
-  var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
-
   var sidebar = document.getElementById("sidebar");
   for (var i = 0; i < map_info.length; i++) {
     // 캠퍼스 맵 리스트 생성
@@ -68,23 +83,25 @@ readFile("./../data/campus_map.json", function (data) {
     list.append(link);
     sidebar.appendChild(list);
 
+    var position = new kakao.maps.LatLng(
+      map_info[i]["Position"][0],
+      map_info[i]["Position"][1]
+    );
+
     // 마커를 생성합니다
     var marker = new kakao.maps.Marker({
-      map: map, // 마커를 표시할 지도
-      position: new kakao.maps.LatLng(
-        map_info[i]["Position"][0],
-        map_info[i]["Position"][1]
-      ), // 마커의 위치
+      position: position,
     });
 
     // 마커에 표시할 인포윈도우를 생성합니다
     var label = document.createElement("div");
-    label.classList.add("map-info");
+    label.classList.add("item-info");
     label.textContent = map_info[i]["Name"];
 
     var infowindow = new kakao.maps.InfoWindow({
       content: label, // 인포윈도우에 표시할 내용
     });
+    infowindow.a.classList.add("outer-item");
 
     // 마커에 mouseover 이벤트와 mouseout 이벤트를 등록합니다
     // 이벤트 리스너로는 클로저를 만들어 등록합니다
@@ -99,5 +116,12 @@ readFile("./../data/campus_map.json", function (data) {
       "mouseout",
       makeOutListener(infowindow)
     );
+
+    // const marker_item =
+    markers[map_info[i]["Link"]] = {
+      marker: marker,
+      position: position,
+      infowindow: infowindow,
+    };
   }
 });
