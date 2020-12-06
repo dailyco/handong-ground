@@ -15,7 +15,7 @@
                "부대시설": ["동아리방","ISU사무실","이미지솔루션","물음표카페","기빙트리"],
                "설명":"모든 동아리방이 모여있는 곳으로 CCR(자유로운 연습공간)이 있습니다.\nISU 오피스와 총학생회 사무실이 있습니다.\n이미지솔루션(복사 및 인쇄 가능한 장소)이 있습니다.\n학생들이 자유롭게 사용할 수 있는 카페형 공간이 마련되어 있습니다.\n기빙트리(중고물품 판매점)가 있습니다.",
                "링크":"student-hall-2f",
-               "사진":"../assets/imgs/building/Clubroom.jpg"
+               "사진":"../assets/imgs/building/ClubRoom.jpg"
             },
             {
                "이름":"히딩크 드림필드",
@@ -142,7 +142,7 @@
                "Institutional Facilities": ["Clubrooms","ISU Office","Image Solution","Question Mark Café","Giving Tree","Mari's Hair Salon"],
                "Description":"A place(CCR=culture creative room) where club activities are gathered.\nThere is an ISU office and Student Government Office.\nA place to print and make copies.\nA café style space where students can use freely.\nA charity shop.\nThe only hair salon in HGU campus",
                "Link":"student-hall-2f",
-               "Photo":"../assets/imgs/building/Clubroom.jpg"
+               "Photo":"../assets/imgs/building/ClubRoom.jpg"
             },
             {
                "Name":"Hiddink Dream Field",
@@ -456,7 +456,7 @@
                 "Institutional Facilities": ["Creation Library","Grace Table"],
                 "Description":"This building has a new second library and a room that Handong students can freely use, and there also a restaurant named Grace Table which serves meals and beverages.",
                 "Link":"un-bankimoon-center",
-                "Photo":"../assets/imgs/building/UNBanki-moonCenter2.jpg"
+                "Photo":"../assets/imgs/building/UNBanKi-moonCenter2.jpg"
             },
             {
                 "Name":"Vision Hall",
